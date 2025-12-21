@@ -1,0 +1,62 @@
+# Laravel
+/.phpunit.cache
+/.phpunit.result.cache
+/bootstrap/ssr
+/bootstrap/cache/*
+!/bootstrap/cache/.gitkeep
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/framework/cache/*
+!/storage/framework/cache/.gitkeep
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitkeep
+/storage/framework/testing/*
+!/storage/framework/testing/.gitkeep
+/storage/framework/views/*
+!/storage/framework/views/.gitkeep
+/storage/debugbar/*
+!/storage/debugbar/.gitkeep
+/resources/js/actions
+/resources/js/routes
+/resources/js/wayfinder
+/vendor
+/.env
+/.env.backup
+/.env.production
+/.env.testing
+
+# Database
+/database/*.sqlite
+/database/*.sqlite-journal
+
+# IDE
+.DS_Store
+.phpactor.json
+Homestead.json
+Homestead.yaml
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependencies
+/auth.json
+pnpm-lock.yaml
+yarn.lock
+
+# OS
+Thumbs.db
+.DS_Store
